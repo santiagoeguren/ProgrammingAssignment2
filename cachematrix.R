@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
+##Function that takes on a matrix as an argument and prepares a list of functions
+##defined within it. It can calculate the inverse of the matrix when one calls
+##the specific part of makeCachematrix and stores it
 
 makeCacheMatrix <- function(x = matrix()) {
 
