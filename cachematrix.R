@@ -24,5 +24,14 @@ list(set = set,
 ## Write a short comment describing this function
 
 cacheSolve <- function(x, ...) {
-        ## Return a matrix that is the inverse of 'x'
+        inv <- x$getinv()
+    if(!is.null(inv)) {
+        message("getting cached data")
+        return(inv)
+    } else{
+    inv <- solve(x$get())
+    
+    print(inv)
+    
+}
 }
