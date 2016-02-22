@@ -19,7 +19,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+##If the inverse of this matrix is already known, it prints that value in the
+##"if" section of the algorithym. If not, it calculates it during the "else" part
+##of the code
 
 cacheSolve <- function(x, ...) {
        m <- x$getreverse()
