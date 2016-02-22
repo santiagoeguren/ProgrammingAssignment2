@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-##If the inverse of this matrix is already known, it prints that value in the
+##If the inverse of this matrix is already known, it give that value in the
 ##"if" section of the algorithym. If not, it calculates it during the "else" part
 ##of the code
 
